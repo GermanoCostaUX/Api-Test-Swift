@@ -16,6 +16,7 @@
 		CE76CD4328F0B9FE001342AD /* ApiTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE76CD4228F0B9FE001342AD /* ApiTestTests.swift */; };
 		CE76CD4D28F0B9FE001342AD /* ApiTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE76CD4C28F0B9FE001342AD /* ApiTestUITests.swift */; };
 		CE76CD4F28F0B9FE001342AD /* ApiTestUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE76CD4E28F0B9FE001342AD /* ApiTestUITestsLaunchTests.swift */; };
+		CE76CD5C28F0C231001342AD /* Responses.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE76CD5B28F0C231001342AD /* Responses.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		CE76CD4828F0B9FE001342AD /* ApiTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ApiTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE76CD4C28F0B9FE001342AD /* ApiTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiTestUITests.swift; sourceTree = "<group>"; };
 		CE76CD4E28F0B9FE001342AD /* ApiTestUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiTestUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		CE76CD5B28F0C231001342AD /* Responses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Responses.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				CE76CD3428F0B9FE001342AD /* Assets.xcassets */,
 				CE76CD3628F0B9FE001342AD /* LaunchScreen.storyboard */,
 				CE76CD3928F0B9FE001342AD /* Info.plist */,
+				CE76CD5B28F0C231001342AD /* Responses.swift */,
 			);
 			path = ApiTest;
 			sourceTree = "<group>";
@@ -258,6 +261,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE76CD5C28F0C231001342AD /* Responses.swift in Sources */,
 				CE76CD3028F0B9FD001342AD /* ViewController.swift in Sources */,
 				CE76CD2C28F0B9FD001342AD /* AppDelegate.swift in Sources */,
 				CE76CD2E28F0B9FD001342AD /* SceneDelegate.swift in Sources */,
